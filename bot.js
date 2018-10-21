@@ -4,7 +4,7 @@ var ChannelID = "502893057390411807";// اي دي الروم
 const Discord = require('discord.js');
 const client = new Discord.Client();
 const prefix = '3';
-
+  
 client.on('warn', console.warn);
   
 client.on('error', console.error);
